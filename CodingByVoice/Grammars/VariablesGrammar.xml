@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<grammar version="1.0" xml:lang="en-US" root="topLevel" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics-ms/1.0">
+  <rule id="topLevel" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Variables" />
+        <tag> $.type = "variable"</tag>
+        <tag> $.value = $$</tag>
+      </item>
+    </one-of>
+    <item>
+      <tag> $.capital = "false" </tag>
+    </item>
+    <item repeat="0-1"> capital <tag> $.capital = "true" </tag></item>
+  </rule>
+  <rule id="Variables" scope="private">
+    <one-of>
+      <item> i <tag> $ = "i" </tag></item>
+      <item> j <tag> $ = "j" </tag></item>
+      <item> arr <tag> $ = "arr" </tag></item>
+      <item> sum <tag> $ = "sum" </tag></item>
+      <item> console <tag> $ = "console" </tag></item>
+      <item> write <tag> $ = "write" </tag></item>
+      <item> line <tag> $ = "line" </tag></item>
+      <item> read <tag> $ = "read" </tag></item>
+      <item> key <tag> $ = "key" </tag></item>
+      <item> car <tag> $ = "car" </tag></item>
+      <item> gardener <tag> $ = "gardener" </tag></item>
+      <item> log <tag> $ = "log" </tag></item>
+      <item> recognizer <tag> $ = "recognizer" </tag></item>
+      <item> andre <tag> $ = "andre" </tag></item>
+      <item> words <tag> $ = "words" </tag></item>
+    </one-of>
+    <item repeat="0-1">variable</item>
+  </rule>
+</grammar>

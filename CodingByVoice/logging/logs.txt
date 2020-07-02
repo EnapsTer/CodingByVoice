@@ -1,0 +1,785 @@
+Start record: [25.05.2020 17:07:34]
+-----[17:07:42]-----
+value: int
+confidence: 0,9304146
+speech text: integer
+type: dataType
+-----[17:07:42]-----
+value: int
+confidence: 0,9299328
+speech text: integer
+type: dataType
+-----[17:07:46]-----
+value: oneRight
+confidence: 0,3548357
+speech text: one right command
+type: command
+-----[17:07:50]-----
+value: arr
+confidence: 0,3988029
+speech text: arr capital
+type: variable
+-----[17:07:57]-----
+value: arr
+confidence: 0,9453743
+speech text: arr
+type: variable
+-----[17:07:59]-----
+value: =
+confidence: 0,984176
+speech text: assign
+type: operator
+-----[17:08:06]-----
+value: read
+confidence: 0,2889184
+speech text: read
+type: variable
+Stop recording: [25.05.2020 17:08:07]
+
+
+Start record: [25.05.2020 17:10:00]
+-----[17:10:02]-----
+value: key
+confidence: 0,8946819
+speech text: key
+type: variable
+-----[17:10:08]-----
+value: int
+confidence: 0,9515467
+speech text: integer
+type: dataType
+-----[17:10:10]-----
+value: arr
+confidence: 0,9404362
+speech text: arr
+type: variable
+-----[17:10:12]-----
+value: =
+confidence: 0,7826412
+speech text: assign
+type: operator
+-----[17:10:14]-----
+value: left
+confidence: 0,7205672
+speech text: left
+type: command
+-----[17:10:18]-----
+value: left
+confidence: 0,891915
+speech text: left
+type: command
+-----[17:10:23]-----
+value: oneLeft
+confidence: 0,9352364
+speech text: one left
+type: command
+-----[17:10:25]-----
+value: []
+confidence: 0,9516941
+speech text: square brackets
+type: sign
+-----[17:10:27]-----
+value: right
+confidence: 0,7555978
+speech text: right
+type: command
+-----[17:10:29]-----
+value: 9
+confidence: 0,8300835
+speech text: 9
+type: number
+-----[17:10:32]-----
+value: delete
+confidence: 0,3810268
+speech text: delete
+type: command
+-----[17:10:34]-----
+value: right
+confidence: 0,4965956
+speech text: right
+type: command
+-----[17:10:36]-----
+value: right
+confidence: 0,7469375
+speech text: right
+type: command
+-----[17:10:39]-----
+value: undo
+confidence: 0,4116445
+speech text: undo command
+type: command
+-----[17:10:42]-----
+value: delete
+confidence: 0,9437293
+speech text: delete
+type: command
+-----[17:10:44]-----
+value: right
+confidence: 0,9074712
+speech text: right
+type: command
+-----[17:10:50]-----
+value: right
+confidence: 0,8091768
+speech text: right
+type: command
+Stop recording: [25.05.2020 17:10:55]
+
+
+Start record: [25.05.2020 17:10:56]
+-----[17:11:00]-----
+value: int
+confidence: 0,9531231
+speech text: integer
+type: dataType
+-----[17:11:02]-----
+value: arr
+confidence: 0,9656262
+speech text: arr
+type: variable
+-----[17:11:03]-----
+value: left
+confidence: 0,9189823
+speech text: left
+type: command
+-----[17:11:05]-----
+value: left
+confidence: 0,9561354
+speech text: left
+type: command
+-----[17:11:07]-----
+value: right
+confidence: 0,6033082
+speech text: right
+type: command
+-----[17:11:09]-----
+value: oneLeft
+confidence: 0,963997
+speech text: one left
+type: command
+-----[17:11:11]-----
+value: const
+confidence: 0,2567502
+speech text: const
+type: construction
+-----[17:11:14]-----
+value: undo
+confidence: 0,5292366
+speech text: undo command
+type: command
+-----[17:11:18]-----
+value: []
+confidence: 0,9421692
+speech text: square brackets
+type: sign
+-----[17:11:20]-----
+value: right
+confidence: 0,4365976
+speech text: right
+type: command
+-----[17:11:23]-----
+value: right
+confidence: 0,4384193
+speech text: right
+type: command
+-----[17:11:26]-----
+value: =
+confidence: 0,9851826
+speech text: assign
+type: operator
+-----[17:11:32]-----
+value: {}
+confidence: 0,9782821
+speech text: braces
+type: sign
+-----[17:11:34]-----
+value: long
+confidence: 0,9198644
+speech text: long
+type: dataType
+-----[17:11:37]-----
+value: delete
+confidence: 0,9387214
+speech text: delete
+type: command
+-----[17:11:39]-----
+value: 1
+confidence: 0,9265279
+speech text: 1
+type: number
+-----[17:11:42]-----
+value: ,
+confidence: 0,7322018
+speech text: comma
+type: sign
+-----[17:11:43]-----
+value: arr
+confidence: 0,2673452
+speech text: arr
+type: variable
+-----[17:11:46]-----
+value: line
+confidence: 0,3676853
+speech text: line
+type: variable
+-----[17:11:48]-----
+value: delete
+confidence: 0,95421
+speech text: delete
+type: command
+-----[17:11:51]-----
+value: 2
+confidence: 0,8275172
+speech text: 2
+type: number
+-----[17:11:53]-----
+value: ,
+confidence: 0,786748
+speech text: comma
+type: sign
+-----[17:11:55]-----
+value: 3
+confidence: 0,8804089
+speech text: 3
+type: number
+-----[17:11:56]-----
+value: ,
+confidence: 0,9410579
+speech text: comma
+type: sign
+-----[17:11:58]-----
+value: 5
+confidence: 0,9665155
+speech text: 5
+type: number
+-----[17:12:00]-----
+value: ,
+confidence: 0,8428422
+speech text: comma
+type: sign
+-----[17:12:01]-----
+value: 6
+confidence: 0,9886382
+speech text: 6
+type: number
+-----[17:12:03]-----
+value: right
+confidence: 0,6081086
+speech text: right
+type: command
+-----[17:12:06]-----
+value: ;
+confidence: 0,9409324
+speech text: semicolon
+type: sign
+-----[17:12:08]-----
+value: enter
+confidence: 0,894745
+speech text: enter
+type: command
+-----[17:12:10]-----
+value: int
+confidence: 0,9685572
+speech text: integer
+type: dataType
+-----[17:12:12]-----
+value: sum
+confidence: 0,985715
+speech text: sum
+type: variable
+-----[17:12:14]-----
+value: =
+confidence: 0,9788745
+speech text: assign
+type: operator
+-----[17:12:16]-----
+value: 0
+confidence: 0,9114461
+speech text: 0
+type: number
+-----[17:12:18]-----
+value: :
+confidence: 0,7990074
+speech text: colon
+type: sign
+-----[17:12:20]-----
+value: enter
+confidence: 0,8030584
+speech text: enter
+type: command
+-----[17:12:24]-----
+value: undo
+confidence: 0,6545803
+speech text: undo command
+type: command
+-----[17:12:26]-----
+value: delete
+confidence: 0,7233703
+speech text: delete
+type: command
+-----[17:12:29]-----
+value: ;
+confidence: 0,9751652
+speech text: semicolon
+type: sign
+-----[17:12:31]-----
+value: enter
+confidence: 0,9134681
+speech text: enter
+type: command
+-----[17:12:32]-----
+value: enter
+confidence: 0,9554715
+speech text: enter
+type: command
+-----[17:12:35]-----
+value: for
+confidence: 0,7359763
+speech text: for constraction
+type: construction
+-----[17:12:37]-----
+value: ()
+confidence: 0,6386577
+speech text: round brackets
+type: sign
+-----[17:12:40]-----
+value: int
+confidence: 0,9671635
+speech text: integer
+type: dataType
+-----[17:12:43]-----
+value: i
+confidence: 0,4345208
+speech text: i variable
+type: variable
+-----[17:12:45]-----
+value: =
+confidence: 0,9826242
+speech text: assign
+type: operator
+-----[17:12:47]-----
+value: 0
+confidence: 0,9255602
+speech text: 0
+type: number
+-----[17:12:49]-----
+value: ;
+confidence: 0,9889091
+speech text: semicolon
+type: sign
+-----[17:12:50]-----
+value: space
+confidence: 0,3331044
+speech text: space
+type: command
+-----[17:12:52]-----
+value: i
+confidence: 0,8969752
+speech text: i
+type: variable
+-----[17:12:55]-----
+value: <
+confidence: 0,8916082
+speech text: less
+type: operator
+-----[17:12:57]-----
+value: 0
+confidence: 0,8953395
+speech text: 0
+type: number
+-----[17:12:59]-----
+value: delete
+confidence: 0,6759446
+speech text: delete
+type: command
+-----[17:13:01]-----
+value: arr
+confidence: 0,9419768
+speech text: arr
+type: variable
+-----[17:13:03]-----
+value: .
+confidence: 0,5533779
+speech text: dot
+type: sign
+-----[17:13:05]-----
+value: enter
+confidence: 0,9522548
+speech text: enter
+type: command
+-----[17:13:06]-----
+value: ;
+confidence: 0,9900337
+speech text: semicolon
+type: sign
+-----[17:13:08]-----
+value: space
+confidence: 0,8817604
+speech text: space
+type: command
+-----[17:13:10]-----
+value: i
+confidence: 0,9111249
+speech text: i
+type: variable
+-----[17:13:12]-----
+value: ++
+confidence: 0,9848189
+speech text: increment
+type: operator
+-----[17:13:13]-----
+value: right
+confidence: 0,3390236
+speech text: right
+type: command
+-----[17:13:22]-----
+value: sum
+confidence: 0,8043201
+speech text: sum
+type: variable
+Start record: [25.05.2020 18:51:20]
+-----[18:51:35]-----
+value: int
+confidence: 0,9790066
+speech text: integer
+type: dataType
+-----[18:51:39]-----
+value: []
+confidence: 0,7994385
+speech text: square brackets
+type: sign
+-----[18:51:42]-----
+value: left
+confidence: 0,4864029
+speech text: left
+type: command
+-----[18:51:45]-----
+value: deleteOne
+confidence: 0,9391024
+speech text: delete one
+type: command
+-----[18:51:47]-----
+value: right
+confidence: 0,5941611
+speech text: right
+type: command
+-----[18:51:48]-----
+value: right
+confidence: 0,694837
+speech text: right
+type: command
+-----[18:51:50]-----
+value: space
+confidence: 0,9719882
+speech text: space
+type: command
+-----[18:51:52]-----
+value: arr
+confidence: 0,8339283
+speech text: arr
+type: variable
+-----[18:51:54]-----
+value: =
+confidence: 0,9725952
+speech text: assign
+type: operator
+-----[18:51:57]-----
+value: {}
+confidence: 0,987389
+speech text: braces
+type: sign
+-----[18:51:59]-----
+value: 1
+confidence: 0,9755811
+speech text: 1
+type: number
+-----[18:52:01]-----
+value: ,
+confidence: 0,2315789
+speech text: comma
+type: sign
+-----[18:52:03]-----
+value: 3
+confidence: 0,8862935
+speech text: 3
+type: number
+-----[18:52:07]-----
+value: ,
+confidence: 0,3542363
+speech text: comma
+type: sign
+-----[18:52:09]-----
+value: for
+confidence: 0,6666878
+speech text: for
+type: construction
+-----[18:52:12]-----
+value: readonly
+confidence: 0,259665
+speech text: readonly
+type: construction
+-----[18:52:14]-----
+value: delete
+confidence: 0,9055517
+speech text: delete
+type: command
+-----[18:52:16]-----
+value: delete
+confidence: 0,8489671
+speech text: delete
+type: command
+-----[18:52:22]-----
+value: 4
+confidence: 0,9449965
+speech text: 4 number
+type: number
+-----[18:52:25]-----
+value: ,
+confidence: 0,2303713
+speech text: comma
+type: sign
+-----[18:52:27]-----
+value: 6
+confidence: 0,9879277
+speech text: 6
+type: number
+-----[18:52:28]-----
+value: ,
+confidence: 0,8946388
+speech text: comma
+type: sign
+-----[18:52:31]-----
+value: 2
+confidence: 0,8931003
+speech text: 2
+type: number
+-----[18:52:33]-----
+value: right
+confidence: 0,7069932
+speech text: right
+type: command
+-----[18:52:35]-----
+value: ;
+confidence: 0,9225844
+speech text: semicolon
+type: sign
+-----[18:52:37]-----
+value: enter
+confidence: 0,943836
+speech text: enter
+type: command
+-----[18:52:39]-----
+value: int
+confidence: 0,9632704
+speech text: integer
+type: dataType
+-----[18:52:41]-----
+value: sum
+confidence: 0,9228177
+speech text: sum
+type: variable
+-----[18:52:43]-----
+value: =
+confidence: 0,9772629
+speech text: assign
+type: operator
+-----[18:52:44]-----
+value: 0
+confidence: 0,9139669
+speech text: 0
+type: number
+-----[18:52:46]-----
+value: ;
+confidence: 0,9703243
+speech text: semicolon
+type: sign
+-----[18:52:48]-----
+value: enter
+confidence: 0,7585137
+speech text: enter
+type: command
+-----[18:52:50]-----
+value: enter
+confidence: 0,9020205
+speech text: enter
+type: command
+-----[18:52:52]-----
+value: for
+confidence: 0,8696514
+speech text: for constraction
+type: construction
+-----[18:52:56]-----
+value: ()
+confidence: 0,9214785
+speech text: round brackets
+type: sign
+-----[18:52:57]-----
+value: ()
+confidence: 0,6383929
+speech text: round brackets
+type: sign
+-----[18:53:00]-----
+value: undo
+confidence: 0,3663592
+speech text: undo command
+type: command
+-----[18:53:03]-----
+value: int
+confidence: 0,8986135
+speech text: integer
+type: dataType
+-----[18:53:06]-----
+value: right
+confidence: 0,3598959
+speech text: right
+type: command
+-----[18:53:08]-----
+value: left
+confidence: 0,937281
+speech text: left
+type: command
+-----[18:53:10]-----
+value: i
+confidence: 0,8957034
+speech text: i variable
+type: variable
+-----[18:53:12]-----
+value: =
+confidence: 0,9723673
+speech text: assign
+type: operator
+-----[18:53:15]-----
+value: 0
+confidence: 0,9350098
+speech text: 0
+type: number
+-----[18:53:17]-----
+value: ;
+confidence: 0,9701493
+speech text: semicolon
+type: sign
+-----[18:53:19]-----
+value: space
+confidence: 0,9852111
+speech text: space
+type: command
+-----[18:53:21]-----
+value: i
+confidence: 0,8849863
+speech text: i
+type: variable
+-----[18:53:22]-----
+value: <
+confidence: 0,901022
+speech text: less
+type: operator
+-----[18:53:26]-----
+value: arr
+confidence: 0,7722943
+speech text: arr
+type: variable
+-----[18:53:28]-----
+value: .
+confidence: 0,809372
+speech text: dot
+type: sign
+-----[18:53:30]-----
+value: enter
+confidence: 0,948194
+speech text: enter
+type: command
+-----[18:53:32]-----
+value: ;
+confidence: 0,9673827
+speech text: semicolon
+type: sign
+-----[18:53:34]-----
+value: 5
+confidence: 0,8958597
+speech text: 5
+type: number
+-----[18:53:37]-----
+value: delete
+confidence: 0,9186593
+speech text: delete
+type: command
+-----[18:53:39]-----
+value: 5
+confidence: 0,7193278
+speech text: 5 number
+type: number
+-----[18:53:40]-----
+value: 4
+confidence: 0,3146562
+speech text: 4
+type: number
+-----[18:53:42]-----
+value: sum
+confidence: 0,4477096
+speech text: sum
+type: variable
+Stop recording: [25.05.2020 18:53:44]
+
+
+Start record: [31.05.2020 17:38:15]
+Stop recording: [31.05.2020 17:38:17]
+
+
+Start record: [31.05.2020 17:38:27]
+-----[17:38:30]-----
+value: int
+confidence: 0,7859334
+speech text: integer
+type: dataType
+-----[17:38:31]-----
+value: i
+confidence: 0,6016808
+speech text: i
+type: variable
+Stop recording: [31.05.2020 17:38:47]
+
+
+Start record: [31.05.2020 17:39:03]
+-----[17:39:06]-----
+value: for
+confidence: 0,934555
+speech text: for constraction
+type: construction
+-----[17:39:09]-----
+value: ''
+confidence: 0,3062798
+speech text: put quotes
+type: sign
+-----[17:39:16]-----
+value: for
+confidence: 0,8600843
+speech text: put for constraction
+type: construction
+-----[17:39:24]-----
+value: enter
+confidence: 0,697704
+speech text: put enter
+type: command
+-----[17:39:27]-----
+value: 0
+confidence: 0,2852406
+speech text: 0
+type: number
+Stop recording: [31.05.2020 17:39:30]
+
+
+Start record: [01.06.2020 17:36:05]
+Start record: [02.06.2020 14:51:43]
+-----[14:51:46]-----
+value: int
+confidence: 0,9088452
+speech text: integer
+type: dataType
+-----[14:51:47]-----
+value: int
+confidence: 0,6183486
+speech text: integer
+type: dataType
+Stop recording: [02.06.2020 14:51:52]
+
+

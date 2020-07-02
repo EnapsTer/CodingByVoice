@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<grammar version="1.0" xml:lang="en-US" root="topLevel"
+xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics-ms/1.0">
+  
+  <rule id="topLevel" scope="public">
+    <one-of>
+      <item repeat="0-1">create</item>  
+      <item repeat="0-1">put</item>  
+    </one-of>
+    
+    <one-of>
+      <item> 
+        <ruleref uri="#Constractions"/> 
+        <tag> $.type = "construction"</tag>
+        <tag> $.value= $$</tag>
+      </item>
+
+      <item>
+        <ruleref uri="#DataTypes"/>
+        <tag> $.type = "dataType"</tag>
+        <tag> $.value= $$</tag>
+      </item>
+      
+      <item>
+        <ruleref uri="#Operators"/>
+        <tag> $.type = "operator"</tag>
+        <tag> $.value= $$</tag>
+      </item>
+
+      <item>
+        <ruleref uri="#Signs"/>
+        <tag> $.type = "sign"</tag>
+        <tag> $.value = $$</tag>
+      </item>
+
+      <item>
+        <ruleref uri="#Commands"/>
+        <tag> $.type = "command"</tag>
+        <tag> $.value = $$</tag>
+      </item>
+    
+      <item>
+        <ruleref uri="#Numbers"/>
+        <tag> $.type = "number"</tag>
+        <tag> $.value = $$</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="DataTypes" scope="private">
+    <one-of>
+      <item>
+        integer <tag> $ = "int"</tag>
+      </item>
+      <item>
+        var <tag> $ = "var"</tag>
+      </item>
+      <item>
+        float <tag> $ = "float"</tag>
+      </item>
+      <item>
+        double <tag> $ = "double"</tag>
+      </item>
+      <item>
+        string <tag> $ = "string"</tag>
+      </item>
+      <item>
+        char <tag> $ = "char"</tag>
+      </item>
+      <item>
+        bool <tag> $ = "bool"</tag>
+      </item>
+      <item>
+        void <tag> $ = "void"</tag>
+      </item>
+      <item>
+        class <tag> $ = "class"</tag>
+      </item>
+      <item>
+        long <tag> $ = "long"</tag>
+      </item>
+      <item>
+        struct <tag> $ = "struct"</tag>
+      </item>
+      <item>
+        byte <tag> $ = "byte"</tag>
+      </item>
+      <item>
+        interface <tag> $ = "interface"</tag>
+      </item>
+    </one-of>
+    <item repeat="0-1">data type</item>
+  </rule>
+  
+  <rule id="Constractions" scope="private">
+    <one-of>
+      <item>
+        abstract <tag> $ = "abstract"</tag>
+      </item>
+      <item>
+        add <tag> $ = "add"</tag>
+      </item>
+      <item>
+        alias <tag> $ = "alias"</tag>
+      </item>
+      <item>
+        as <tag> $ = "as"</tag>
+      </item>
+      <item>
+        ascending <tag> $ = "ascending"</tag>
+      </item>
+      <item>
+        async <tag> $ = "async"</tag>
+      </item>
+      <item>
+        await <tag> $ = "await"</tag>
+      </item>
+      <item>
+        base <tag> $ = "base"</tag>
+      </item>
+      <item>
+        break <tag> $ = "break"</tag>
+      </item>
+      <item>
+        by <tag> $ = "by"</tag>
+      </item>
+      <item>
+        case <tag> $ = "case"</tag>
+      </item>
+      <item>
+        catch <tag> $ = "catch"</tag>
+      </item>
+      <item>
+        checked <tag> $ = "checked"</tag>
+      </item>
+      <item>
+        const <tag> $ = "const"</tag>
+      </item>
+      <item>
+        continue <tag> $ = "continue"</tag>
+      </item>
+      <item>
+        decimal <tag> $ = "decimal"</tag>
+      </item>
+      <item>
+        default <tag> $ = "default"</tag>
+      </item>
+      <item>
+        delegate <tag> $ = "delegate"</tag>
+      </item>
+      <item>
+        descending <tag> $ = "descending"</tag>
+      </item>
+      <item>
+        do <tag> $ = "do"</tag>
+      </item>
+      <item>
+        dynamic <tag> $ = "dynamic"</tag>
+      </item>
+      <item>
+        else <tag> $ = "else"</tag>
+      </item>
+      <item>
+        enum <tag> $ = "enum"</tag>
+      </item>
+      <item>
+        equals <tag> $ = "equals"</tag>
+      </item>
+      <item>
+        event <tag> $ = "event"</tag>
+      </item>
+      <item>
+        explicit <tag> $ = "explicit"</tag>
+      </item>
+      <item>
+        extern <tag> $ = "extern"</tag>
+      </item>
+      <item>
+        false <tag> $ = "false"</tag>
+      </item>
+      <item>
+        finally <tag> $ = "finally"</tag>
+      </item>
+      <item>
+        fixed <tag> $ = "fixed"</tag>
+      </item>
+      <item>
+        for <tag> $ = "for"</tag>
+      </item>
+      <item>
+        foreach <tag> $ = "foreach"</tag>
+      </item>
+      <item>
+        from <tag> $ = "from"</tag>
+      </item>
+      <item>
+        get <tag> $ = "get"</tag>
+      </item>
+      <item>
+        global <tag> $ = "global"</tag>
+      </item>
+      <item>
+        goto <tag> $ = "goto"</tag>
+      </item>
+      <item>
+        group <tag> $ = "group"</tag>
+      </item>
+      <item>
+        if <tag> $ = "if"</tag>
+      </item>
+      <item>
+        implicit <tag> $ = "implicit"</tag>
+      </item>
+      <item>
+        in <tag> $ = "in"</tag>
+      </item>
+      <item>
+        internal <tag> $ = "internal"</tag>
+      </item>
+      <item>
+        into <tag> $ = "into"</tag>
+      </item>
+      <item>
+        is <tag> $ = "is"</tag>
+      </item>
+      <item>
+        join <tag> $ = "join"</tag>
+      </item>
+      <item>
+        let <tag> $ = "let"</tag>
+      </item>
+      <item>
+        lock <tag> $ = "lock"</tag>
+      </item>
+      <item>
+        nameof <tag> $ = "nameof"</tag>
+      </item>
+      <item>
+        namespace <tag> $ = "namespace"</tag>
+      </item>
+      <item>
+        new <tag> $ = "new"</tag>
+      </item>
+      <item>
+        null <tag> $ = "null"</tag>
+      </item>
+      <item>
+        object <tag> $ = "object"</tag>
+      </item>
+      <item>
+        on <tag> $ = "on"</tag>
+      </item>
+      <item>
+        operator <tag> $ = "operator"</tag>
+      </item>
+      <item>
+        orderby <tag> $ = "orderby"</tag>
+      </item>
+      <item>
+        out <tag> $ = "out"</tag>
+      </item>
+      <item>
+        override <tag> $ = "override"</tag>
+      </item>
+      <item>
+        params <tag> $ = "params"</tag>
+      </item>
+      <item>
+        partial <tag> $ = "partial"</tag>
+      </item>
+      <item>
+        private <tag> $ = "private"</tag>
+      </item>
+      <item>
+        protected <tag> $ = "protected"</tag>
+      </item>
+      <item>
+        public <tag> $ = "public"</tag>
+      </item>
+      <item>
+        readonly <tag> $ = "readonly"</tag>
+      </item>
+      <item>
+        ref <tag> $ = "ref"</tag>
+      </item>
+      <item>
+        remove <tag> $ = "remove"</tag>
+      </item>
+      <item>
+        return <tag> $ = "return"</tag>
+      </item>
+      <item>
+        sealed <tag> $ = "sealed"</tag>
+      </item>
+      <item>
+        select <tag> $ = "select"</tag>
+      </item>
+      <item>
+        set <tag> $ = "set"</tag>
+      </item>
+      <item>
+        short <tag> $ = "short"</tag>
+      </item>
+      <item>
+        sizeof <tag> $ = "sizeof"</tag>
+      </item>
+      <item>
+        stackalloc <tag> $ = "stackalloc"</tag>
+      </item>
+      <item>
+        static <tag> $ = "static"</tag>
+      </item>
+      <item>
+        static <tag> $ = "static"</tag>
+      </item>
+      <item>
+        switch <tag> $ = "switch"</tag>
+      </item>
+      <item>
+        this <tag> $ = "this"</tag>
+      </item>
+      <item>
+        throw <tag> $ = "throw"</tag>
+      </item>
+      <item>
+        true <tag> $ = "true"</tag>
+      </item>
+      <item>
+        try <tag> $ = "try"</tag>
+      </item>
+      <item>
+        typeof <tag> $ = "typeof"</tag>
+      </item>
+      <item>
+        unchecked <tag> $ = "unchecked"</tag>
+      </item>
+      <item>
+        unmanaged <tag> $ = "unmanaged"</tag>
+      </item>
+      <item>
+        unsafe <tag> $ = "unsafe"</tag>
+      </item>
+      <item>
+        using <tag> $ = "using"</tag>
+      </item>
+      <item>
+        value <tag> $ = "value"</tag>
+      </item>
+      <item>
+        virtual <tag> $ = "virtual"</tag>
+      </item>
+      <item>
+        volatile <tag> $ = "volatile"</tag>
+      </item>
+      <item>
+        while <tag> $ = "while"</tag>
+      </item>
+    </one-of>
+    
+    <item repeat="0-1"> constraction </item>
+  </rule>
+
+  <rule id ="Operators" scope="private">
+    <one-of>
+      <item>
+        add <item repeat="0-1">operator</item> <tag> $ = "+"</tag>
+      </item>
+      <item>
+        plus <item repeat="0-1">operator</item> <tag> $ = "+"</tag>
+      </item>
+      <item>
+        subtract <item repeat="0-1">operator</item> <tag> $ = "-"</tag>
+      </item>
+      <item>
+        minus <item repeat="0-1">operator</item> <tag> $ = "-"</tag>
+      </item>
+      <item>
+        multiplie <item repeat="0-1">operator</item> <tag> $ = "*"</tag>
+      </item>
+      <item>
+        divide <item repeat="0-1">operator</item> <tag> $ = "/"</tag>
+      </item>
+      <item>
+        slash <tag> $ = "/"</tag>
+      </item>
+      <item>
+        module <item repeat="0-1">operator</item> <tag> $ = "%"</tag>
+      </item>
+      <item>
+        increment <item repeat="0-1">operator</item> <tag> $ = "++"</tag>
+      </item>
+      <item>
+        decrement <item repeat="0-1">operator</item> <tag> $ = "--"</tag>
+      </item>
+
+      <item>
+        equal <tag> $ = "=="</tag>
+      </item>
+      <item>
+        not equal <tag> $ = "!="</tag>
+      </item>
+      <item>
+        greater <tag> $ = "&gt;"</tag>
+      </item>
+      <item>
+        less <tag> $ = "&lt;" </tag>
+      </item>
+      <item>
+        greater or equal <tag> $ = "&gt;="</tag>
+      </item>
+      <item>
+        less or equal <tag> $ = "&lt;="</tag>
+      </item>
+
+      <item>
+        and <tag> $ = "&amp;&amp;"</tag>
+      </item>
+      <item>
+        or <tag> $ = "||"</tag>
+      </item>
+      <item>
+        not <tag> $ = "!"</tag>
+      </item>
+      <item>
+        assign <tag> $ = "="</tag>
+      </item>
+      <item>
+        add assignment <tag> $ = "+="</tag>
+      </item>
+      <item>
+        subtract assignment <tag> $ = "-="</tag>
+      </item>
+      <item>
+        multiply assignment <tag> $ = "*="</tag>
+      </item>
+      <item>
+        divide assignment <tag> $ = "/="</tag>
+      </item>
+      <item>
+        modulus assignment <tag> $ = "!="</tag>
+      </item>
+      <item>
+        left shift assignment <tag> $ = "&lt;&lt;="</tag>
+      </item>
+      <item>
+        right shift assignment <tag> $ = "&gt;&gt;="</tag>
+      </item>
+      <item>
+        bitwise and assignment <tag> $ = "&amp;="</tag>
+      </item>
+      <item>
+        bitwise exclusive or assignment <tag> $ = "^="</tag>
+      </item>
+      <item>
+        bitwise inclusive or assignment <tag> $ = "|="</tag>
+      </item>
+      <item repeat="0-1">operator</item>
+    </one-of>
+    
+  </rule>
+
+  <rule id="Signs" scope="private">
+    <one-of>
+      <item>
+        comma  <tag> $ = ","</tag>
+      </item>
+      <item>
+        dot  <tag> $ = "."</tag>
+      </item>
+      <item>
+        semicolon <tag> $ = ";"</tag>
+      </item>
+      <item>
+        colon <tag> $ = ":"</tag>
+      </item>
+      <item>
+        backslash <tag> $ = "\\"</tag>
+      </item>
+      <item>
+        bottom slash <tag> $ = "_"</tag>
+      </item>
+      <item>
+        double slash <tag> $ = "//"</tag>
+      </item>
+      <item>
+        forward slash <tag> $ = "|"</tag>
+      </item>
+      <item>
+        quotes <tag> $ = "&apos;&apos;"</tag>
+      </item>
+      <item>
+        double quotes <tag> $ = '&quot;&quot;'</tag>
+      </item>
+      <item>
+        arrows  <tag> $ = "&lt;&gt;"</tag>
+      </item>
+      <item>
+        braces  <tag> $ = "{}"</tag>
+      </item>
+      <item>
+        round brackets  <tag> $ = "()"</tag>
+      </item>
+      <item>
+        square brackets  <tag> $ = "[]"</tag>
+      </item>
+      <item>
+        question mark  <tag> $ = "?"</tag>
+      </item>
+    </one-of>
+    <item repeat="0-1">sign</item>
+  </rule>
+
+  <rule id="Numbers" scope="private">
+    <one-of>
+      <item>
+        1  <tag> $ = "1"</tag>
+      </item>
+      <item>
+        2 <tag> $ = "2"</tag>
+      </item>
+      <item>
+        3  <tag> $ = "3"</tag>
+      </item>
+      <item>
+        4  <tag> $ = "4"</tag>
+      </item>
+      <item>
+        5  <tag> $ = "5"</tag>
+      </item>
+        <item>
+        6  <tag> $ = "6"</tag>
+      </item>
+        <item>
+        7  <tag> $ = "7"</tag>
+      </item>
+        <item>
+        8  <tag> $ = "8"</tag>
+      </item>
+        <item>
+        9  <tag> $ = "9"</tag>
+      </item>
+        <item>
+        0  <tag> $ = "0"</tag>
+      </item>
+    </one-of>
+    <item repeat="0-1">number</item>
+  </rule>
+
+  <rule id="Commands" scope="private">
+    <one-of>
+      <item>
+        space <tag> $ = "space"</tag>
+      </item>
+      <item>
+        undo <tag> $ = "undo"</tag>
+      </item>
+      <item>
+        redo <tag> $ = "redo"</tag>
+      </item>
+      <item>
+        copy <tag> $ = "copy"</tag>
+      </item>
+      <item>
+        paste <tag> $ = "paste"</tag>
+      </item>
+      <item>
+        cut <tag> $ = "cut"</tag>
+      </item>
+      <item>
+        below <tag> $ = "below"</tag>
+      </item>
+      <item>
+        higher <tag> $ = "higher"</tag>
+      </item>
+      <item>
+        right <tag> $ = "right"</tag>
+      </item>
+      <item>
+        left <tag> $ = "left"</tag>
+      </item>
+      <item>
+        one right <tag> $ = "oneRight"</tag>
+      </item>
+      <item>
+        one left  <tag> $ = "oneLeft"</tag>
+      </item>
+      <item>
+        page up  <tag> $ = "pageUp"</tag>
+      </item>
+      <item>
+        page down <tag> $ = "pageDown"</tag>
+      </item>
+      <item>
+        up <tag> $ = "up"</tag>
+      </item>
+      <item>
+        down <tag> $ = "down"</tag>
+      </item>
+      <item>
+        tabulation <tag> $ = "tabulation"</tag>
+      </item>
+      <item>
+        select left word <tag> $ = "selectLeftWord"</tag>
+      </item>
+      <item>
+        select right word <tag> $ = "selectRightWord"</tag>
+      </item>
+      <item>
+        select down <tag> $ = "selectDown"</tag>
+      </item>
+        <item>
+        select up <tag> $ = "selectUp"</tag>
+      </item>
+      <item>
+        delete <tag> $ = "delete"</tag>
+      </item>
+      <item>
+        delete row <tag> $ = "deleteRow"</tag>
+      </item>
+      <item>
+        delete one <tag> $ = "deleteOne"</tag>
+      </item>
+      <item>
+        enter <tag> $ = "enter"</tag>
+      </item>
+    </one-of>
+    <item repeat="0-1">command</item>
+  </rule>
+</grammar>
