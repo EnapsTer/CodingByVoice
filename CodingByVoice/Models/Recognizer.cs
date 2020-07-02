@@ -15,6 +15,7 @@ namespace CodingByVoice.Models
         static private SpeechRecognitionEngine sre = new SpeechRecognitionEngine(culture);
         public delegate void Handler(object sender, SpeechRecognizedEventArgs e);
 
+
         public Recognizer(Handler handler)
         {
             LoadSpeechEngine(handler);
